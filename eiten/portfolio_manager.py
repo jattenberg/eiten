@@ -9,10 +9,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load our modules
-from data_loader import DataEngine
-from simulator import MontoCarloSimulator
-from backtester import BackTester
-from strategy_manager import StrategyManager
+from . data_loader import DataEngine
+from . simulator import MontoCarloSimulator
+from . backtester import BackTester
+from . strategy_manager import StrategyManager
 
 # Ignore warnings
 import warnings
